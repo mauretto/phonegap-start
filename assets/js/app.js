@@ -5,7 +5,7 @@ run(function () {
     // immediately invoked on first run
     var init = (function () {
         if (navigator.network.connection.type == Connection.NONE) {
-            alert("Nessuna connessione internet - non sarà possibile visualizzare alcuna mappa");
+            alert("ATTENZIOE: connessione internet non disponibile");
         } 
     })();
     
