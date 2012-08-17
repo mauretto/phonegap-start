@@ -16,30 +16,30 @@ body {
   color: #444;
   text-shadow: 0 1px 0 #fff;
   border-bottom: 1px solid #999;
-  height: 44px;
-  line-height: 44px;
+  height: 54px;
+  line-height: 54px;
   padding: 0;
   -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
 
 .app_button, button {
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   display: inline-block;
   padding: 0 20px;
   margin-bottom: 20px;
   cursor: pointer;
-  width: 200px;
-  background:#F7941E;
+  width: 220px;
+  background:#808080;
   background: -webkit-gradient(linear, 0 0, 0 70%, from(#F7941E), to(#D37F18));
-  background: linear-gradient(#F7941E, #D37F18 70%);
+  background: linear-gradient(#808080, #D37F18 70%);
   border: 1px solid #C97917;
   font-size: 18px;
   font-weight: 200;
   text-shadow: 0 -1px 0 #7E4B0D;
-  height: 40px;
-  line-height: 40px;
+  height: 50px;
+  line-height: 50px;
   color:#fff;
   text-align: center;
 }
@@ -66,11 +66,11 @@ body {
 
   .map_image {
     margin: auto;
-    height: 250px;
-    width: 250px;
+    height: 550px;
+    width: 750px;
     border: 1px solid #aaa;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     overflow: hidden;
   }
 
