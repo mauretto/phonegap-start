@@ -5,7 +5,7 @@ run(function () {
     // immediately invoked on first run
     var init = (function () {
         if (navigator.network.connection.type == Connection.NONE) {
-            alert("ATTENZIOE: connessione internet non disponibile");
+            alert("ATTENZIONE: connessione internet non disponibile");
         } 
     })();
     
