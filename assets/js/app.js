@@ -5,10 +5,8 @@ run(function () {
     // immediately invoked on first run
     var init = (function () {
         if (navigator.network.connection.type == Connection.NONE) {
-            alert("No internet connection - we won't be able to show you any maps");
-        } else {
-            alert("We can reach Google - get ready for some awesome maps!");
-        }
+            alert("Nessuna connessione internet - non sarà possibile visualizzare alcuna mappa");
+        } 
     })();
     
     // a little inline controller
@@ -36,7 +34,7 @@ run(function () {
             navigator.geolocation.getCurrentPosition(function (position) {
                 var location = "" + position.coords.latitude + "," + position.coords.longitude;
                 path += location + "&zoom=" + zoom;
-                path += "&size=250x250&maptype=" + map + "&markers=color:red|label:P|";
+                path += "&size=850x550&maptype=" + map + "&markers=color:red|label:P|";
                 path += location + "&sensor=false";
 
                 x$('img#static_map').attr('src', path);
